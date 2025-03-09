@@ -329,12 +329,28 @@ a{
     background-image: url(project2.png);
   }
   
- @media (max-width:815px) {
+  @media (max-width:800px) {
 
     .faded-text{
-      font-size: 4em;
+      font-size: 3em;
     }
     
+  }
+  @media (max-width:695px)
+  {
+    .about-heading{
+      font-size:20px;
+
+    }
+    .about-sub-heading{
+      font-size: 20px;
+    }
+  }
+  @media(max-width:1222)
+  {
+    .skill-container-right{
+      flex-wrap: wrap;
+    }
   }
   @media (max-width:1300px) {
     .page-header {
