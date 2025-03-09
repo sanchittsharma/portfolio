@@ -329,7 +329,7 @@ a{
     background-image: url(project2.png);
   }
   
-  @media (max-width:800px) {
+ @media (max-width:800px) {
 
     .faded-text{
       font-size: 3em;
@@ -345,6 +345,9 @@ a{
     .about-sub-heading{
       font-size: 20px;
     }
+    .description{
+      width: 25%;
+    }
   }
   @media(max-width:1222)
   {
@@ -352,6 +355,13 @@ a{
       flex-wrap: wrap;
     }
   }
+  @media(max-width:677px)
+  {
+    .skill-subHeading{
+      width: 258px;
+    }
+  }
+  
   @media (max-width:1300px) {
     .page-header {
       padding-top: 30px;
